@@ -25,7 +25,15 @@ ollama pull codellama:7b
 ollama pull codellama:13b
 ```
 
-### Install Requirements
+### Install requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+
+### Run the Chatbot
+```bash
+python CodeAmigo.py
+```
+1. Provide the inputs when prompted.
+2. Type 'exit' to quit.
+3. Switch between models if needed.
