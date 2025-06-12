@@ -14,9 +14,18 @@ This is a **local, intelligent code analysis assistant** powered by LLMs (Large 
 
 ---
 
-## 🏁 Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Install Requirements
+### Install Ollama
+Install Ollama for running local models: https://ollama.com/download
 
+### Pull Models
+```bash
+ollama pull codellama:7b
+ollama pull codellama:13b
+```
+
+### Install Requirements
 ```bash
 pip install -r requirements.txt
+```
